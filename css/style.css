@@ -1,0 +1,13 @@
+.first-block{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+.header ul li {
+	float: left;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+.logo{
+	float: left;
+	margin-top:20px;
+}
