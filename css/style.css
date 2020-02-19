@@ -1,0 +1,134 @@
+body {
+    background-image: url(../images/Bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}    
+
+.feature {
+    width: 100%;
+    font-family: Poppins;
+}
+
+.title {
+    margin: 0 422px 54px 439px;
+    width: 539px;
+}
+
+.title p {
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    font-weight: bold;
+    color: #2F281E;
+}
+
+.card {
+    margin: 0 144px 34px 161px;
+    width: 1095px;
+    height: 204px;
+    display: flex;
+}
+
+.click {
+    width: 240px;
+    height: 178px;
+    padding: 0 46px 0 0;
+}
+
+.click p:nth-child(2) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.click p:nth-child(3) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.design {
+    width: 240px;
+    height: 178px;
+    padding: 0 46px 0 0;
+}
+
+.design p:nth-child(2) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.design p:nth-child(3) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.preference {
+    width: 240px;
+    height: 178px;
+    padding: 0 46px 0 0;
+}
+
+.preference p:nth-child(2) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.preference p:nth-child(3) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.time {
+    width: 240px;
+    height: 204px;
+}
+
+.time p:nth-child(2) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}
+
+.time p:nth-child(3) {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+button {
+    background: #FF9900;
+    border-radius: 4px;
+    width: 175px;
+    height: 53px;
+    margin: 0 604px 90px 621px;
+    cursor: pointer;
+    border: 1px solid #FF9900;
+}
+button p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
