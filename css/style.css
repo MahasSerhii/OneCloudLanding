@@ -1,13 +1,113 @@
 .first-block{
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	width: 1400px;
+	margin: auto;
+}
+.header{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	box-sizing: border-box;
+	margin-top: 20px;
 }
 .header ul li {
 	float: left;
 	margin-left: 25px;
-	margin-top: 30px;
+}
+.header ul li a{
+	text-decoration: none;
+	color: black;
+}
+.header ul li a:hover{
+	color: #FF9900;
+}
+.sign-in,.sign-up{
+	width: 110px;
+	height: 46px;
+	border-radius: 4px;
+	font-weight: 600;
+	font-size: 16px;
+	margin-top: -15px;
+}
+.sign-in{
+	background:#FFFFFF;
+	border: 1px solid #BCD0E5;
+	margin-left:29px;
+}
+.sign-in:hover{
+	background: #FF9900;
+	margin-left:29px;
+	color: #FFFFFF;
+}
+.sign-in:active{
+	background: rgb(247, 149, 3);
+	margin-left:29px;
+	color: #FFFFFF;
+}
+.sign-up{
+	background: #FF9900;
+	border:none;
+	color: #FFFFFF;
+	margin-left:14px;
+}
+.header ul li:nth-child(1){
+	margin-left: 320px;
 }
 .logo{
 	float: left;
-	margin-top:20px;
+	margin-left: 143px;
+}
+.logo img:nth-last-of-type(1){
+	margin-left: 11px;
+}
+.clear-bottom{
+	clear: both;
+}
+.banner-top{
+	position: relative;
+	margin-top: 113px;
+	margin-left: 145px;
+}
+.banner-top h1{
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 54px;
+	width: 518px;
+}
+.banner-top p{
+	width: 458px;
+	font-size: 18px;
+	line-height: 28px;
+	margin-top: 30px;
+}
+.jumping-people{
+	position: absolute;
+	margin-top: -140px;
+	margin-left: 500px;
+}
+.banner-top ul li{
+	float: left;
+}
+.banner-top a{
+	position: absolute;
+	margin-left: 56px;
+	color: #FF9900;
+	margin-top:60px;
+}
+.get-started{
+	width: 175px;
+	height: 53px;
+	background: #FF9900;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	border: none;
+	margin-top: 45px;
+}
+body .first-block button{
+	cursor: pointer;
 }
