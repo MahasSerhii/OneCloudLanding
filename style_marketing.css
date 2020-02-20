@@ -1,0 +1,24 @@
+.marketing {
+    width: 100%;
+    font-family: Poppins;
+}
+.marketing_block {
+    display: inline-block;
+    width: 1107px;
+    padding-top: 55px;
+    padding-left: 146px;
+    padding-right: 146px;
+}
+.marketing_block1, .marketing_block2, .marketing_block3 {
+    display: inline;
+    width: 348px;
+}
+.marketing_maintext {
+    padding-top: 30px;
+    padding-left: 146px;
+    font-size: 34px;
+
+}
+.marketing_text {
+    padding-left: 146px;
+}
