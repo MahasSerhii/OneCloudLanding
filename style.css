@@ -1,24 +1,68 @@
-.marketing {
-    width: 100%;
-    font-family: Poppins;
+.main-olya{
+    width: 1400px;
+    margin:1000px auto;
+    font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
 }
-.marketing_block {
-    display: inline-block;
-    width: 1107px;
-    padding-top: 55px;
-    padding-left: 146px;
-    padding-right: 146px;
+.marketing {
+    max-width: 1400px;
+    margin-left: 147px;
 }
 .marketing_block1, .marketing_block2, .marketing_block3 {
-    display: inline;
+    width: 350px;
+    float: left;
+}
+.marketing_block1, .marketing_block2{
+    margin-left: 25px;
+}
+.marketing img {
     width: 348px;
+    height: 185px;
+    margin-top: 55px;
 }
-.marketing_maintext {
-    padding-top: 30px;
-    padding-left: 146px;
+.clear-marketing{
+    clear: both;
+}
+.marketing_maintext{
+    font-weight: bold;
     font-size: 34px;
-
+    line-height: 51px;
 }
-.marketing_text {
-    padding-left: 146px;
+.marketing_text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
 }
+.marketing-block1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+}
+.marketing-scroll{
+    margin-top: 45px;
+    margin-left: 500px;
+}
+.bold-author-feedback{
+    font-weight: bold;
+    font-size: 16px; 
+}
+.feedback{
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+.marketing-scroll{
+    margin-left: 545px;
+}
+.marketing-scroll ul li{
+    list-style-type: disc;
+    font-size:50px;
+    color:#EFEFEF;
+    float: left;
+    margin-left: 25px;
+    margin-top: 45px;
+   }
+   .marketing-scroll ul li:nth-of-type(2){
+       color:#FF9900;
+   }
