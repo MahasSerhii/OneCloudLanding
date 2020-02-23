@@ -1,7 +1,7 @@
 .marketing {
-    width: 100%;
+    width: 1400px;
     font-family: 'Poppins';
-    margin-top: 200px;
+    margin-top: 1000px;
 }
 .marketing_block {
     display: inline-block;
@@ -13,13 +13,16 @@
 }
 .marketing_block1, .marketing_block2, .marketing_block3 {
     display: inline-block;
-    width: 348px;
-    margin: auto;
+    width: 348px; 
+}
+.marketing_block2, .marketing_block3 {
+    margin-left: 25px;
 }
 .marketing_maintext {
-    padding-top: 30px;
-    padding-left: 146px;
+    margin-left: 146px;
+    font-weight: bold;
     font-size: 34px;
+    line-height: 51px;
 
 }
 .marketing_text {
