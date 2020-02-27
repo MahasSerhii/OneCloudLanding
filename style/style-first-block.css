@@ -1,3 +1,4 @@
+
 .first-block{
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
@@ -5,16 +6,23 @@
 	font-weight: normal;
 	width: 1400px;
 	margin: auto;
+	background-image:url(/img/Bg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position-y: 80%;
+}
+.content{
+	width: 1126px;
+	margin: auto;
 }
 .header{
-	padding-top: 25px;
-	padding-bottom: 25px;
 	box-sizing: border-box;
-	margin-top: 20px;
+	height: 98px;
+    line-height: 98px;
 }
 .header ul li {
 	float: left;
-	margin-left: 25px;
+	margin-left: 29px;
 }
 .header ul li a{
 	text-decoration: none;
@@ -29,7 +37,7 @@
 	border-radius: 4px;
 	font-weight: 600;
 	font-size: 16px;
-	margin-top: -15px;
+
 }
 .sign-in{
 	background:#FFFFFF;
@@ -38,13 +46,13 @@
 }
 .sign-in:hover{
 	background: #FF9900;
-	margin-left:29px;
 	color: #FFFFFF;
+	margin-left:29px;
 }
 .sign-in:active{
 	background: rgb(247, 149, 3);
-	margin-left:29px;
 	color: #FFFFFF;
+	margin-left:29px;
 }
 .sign-up{
 	background: #FF9900;
@@ -53,48 +61,48 @@
 	margin-left:14px;
 }
 .header ul li:nth-child(1){
-	margin-left: 320px;
+	margin-left: 320px
 }
 .logo{
 	float: left;
-	margin-left: 143px;
+	margin-top: 15px;
+	height: 0px;
 }
 .logo img:nth-last-of-type(1){
 	margin-left: 11px;
+	
 }
-.clear-bottom{
+.clear {
 	clear: both;
 }
-.banner-top{
-	position: relative;
-	margin-top: 113px;
-	margin-left: 145px;
+.content-text{
+	width: 46%;
 }
-.banner-top h1{
+.content-text h1{
 	font-weight: bold;
 	font-size: 44px;
 	line-height: 54px;
 	width: 518px;
 }
-.banner-top p{
+.content-text p{
 	width: 458px;
 	font-size: 18px;
 	line-height: 28px;
 	margin-top: 30px;
 }
-.jumping-people{
-	position: absolute;
-	margin-top: -140px;
-	margin-left: 500px;
+.content-img{
+	float: right;
+	width: 54%;
 }
-.banner-top ul li{
+.content-img img{
+	width: 100%;
+}
+.content-text ul li{
 	float: left;
 }
-.banner-top a{
-	position: absolute;
-	margin-left: 56px;
+.content-text a{
 	color: #FF9900;
-	margin-top:60px;
+	margin-left:30px;
 }
 .get-started{
 	width: 175px;
@@ -106,8 +114,61 @@
 	line-height: 24px;
 	color: #FFFFFF;
 	border: none;
-	margin-top: 45px;
+	margin-top: 11%;
 }
 body .first-block button{
 	cursor: pointer;
+}
+.we-design-tools{
+	margin-top: 111px;
+}
+.text-type-xl{
+	display:block;
+	width:50%;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	text-align: center;
+	margin: auto;
+
+}
+.text-type-l{
+	font-style: normal;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 70px;
+	
+
+}
+.pref{
+	width:1095px;
+	margin: auto;
+
+}
+.pref-first, .pref-second, .pref-third, .pref-four{
+	float: left;
+	width: 21%;
+	margin-top: 46px;
+}
+.pref-second, .pref-third, .pref-four{
+	margin-left: 5.3%;
+}
+.text-type-m{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.sign-up-now{
+	width: 175px;
+	height: 53px;
+	font-weight: 600;
+	font-size: 16px;
+	background: #FF9900;
+	border:none;
+	color: #FFFFFF;
+	margin-left:42%;
+	margin-bottom: 30%;
+	margin-top:60px;
 }
