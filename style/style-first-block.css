@@ -142,6 +142,7 @@ body .first-block button{
 }
 .pref{
 	width:1095px;
+	margin: auto;
 
 }
 .pref-first, .pref-second, .pref-third, .pref-four{
