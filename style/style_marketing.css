@@ -11,7 +11,7 @@
 }
 .marketing_block_left, .marketing_block_center, .marketing_block_right {
     display: inline-block;
-    width: 31.33%;
+    width: 30%;
     margin: 0 1%;
 }
 .marketing_block_center, .marketing_block_right {
@@ -40,7 +40,7 @@
     text-align: center;
 }
 
-.marketing_pagination, .marketing_pagination_active {
+.marketing_pagination_left, .marketing_pagination_active, .marketing_pagination_right{
     display: inline-block;
     background-color: #EFEFEF;
     width: 16px;
