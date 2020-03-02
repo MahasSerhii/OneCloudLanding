@@ -12,7 +12,7 @@
 .marketing_block_left, .marketing_block_center, .marketing_block_right {
     display: inline-block;
     width: 31.33%;
-    margin: 0 1%;
+    margin: 0 0.3%;
 }
 .marketing_block_center, .marketing_block_right {
     margin-left: 25px;
