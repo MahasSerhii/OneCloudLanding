@@ -1,5 +1,5 @@
 .marketing {
-    max-width: 1100px;
+    width: 1100px;
     font-family: 'Poppins';
     margin: 0 auto;
 }
@@ -7,16 +7,13 @@
     margin-top: 55px;
     margin-bottom: 84px;
     font-size: 0;
-    text-align: center;
-}
-.block_img {
-    width: 100%;
+    margin: 0px -1%;
+    margin-top: 55px;
 }
 .marketing_block_left, .marketing_block_center, .marketing_block_right {
     display: inline-block;
-    max-width: 348px;
-    margin: 0 1%;
-    vertical-align: top;
+    width: 31.33%;
+    margin: 0 0.3%;
 }
 .marketing_block_center, .marketing_block_right {
     margin-left: 25px;
@@ -25,6 +22,7 @@
     font-weight: bold;
     font-size: 34px;
     line-height: 51px;
+    padding-bottom:9px;
 
 }
 .block_text {
@@ -42,9 +40,10 @@
 }
 .marketing_pagination {
     text-align: center;
+    margin-top: 45px;
 }
 
-.marketing_pagination_left, .marketing_pagination_active, .marketing_pagination_right{
+.marketing_pagination ul li{
     display: inline-block;
     background-color: #EFEFEF;
     width: 16px;
@@ -52,26 +51,11 @@
     border-radius: 100%;
   }
 .marketing_pagination_active {
-    background-color: #FF9900;
+    background-color: #FF9900!important;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
   }
 .span_marketing {
     font-weight: bold;
-}
-@media screen and (max-width: 600px) {
-    .block_text_main_left, .block_text_main_center, .block_text_main_right {
-         font-size: 14px;
-         margin-bottom: 5px;
-     }
-     .block_text {
-         font-size: 10px;
-     }
-    }
-    @media screen and (max-width: 350px){
-    .block_text_main_left, .block_text_main_center, .block_text_main_right {
-        font-size: 10px;
-
-    }
-    .block_text {
-        font-size: 8px;
-    }
 }
